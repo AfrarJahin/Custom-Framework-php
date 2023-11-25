@@ -1,0 +1,18 @@
+{
+    "name": "afra/app",
+    "autoload": {
+        "psr-4": {
+            "Afra\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Afrar Jahin",
+            "email": "afrarjahin@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.5",
+        "ext-mysqli": "*"
+    }
+}
